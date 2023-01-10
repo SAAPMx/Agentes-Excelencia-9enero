@@ -135,7 +135,7 @@ btnsAccept.forEach((btn) => {
                 const nombre = task.nombre;
                         /*El correo ya tiene variable*/
                 savePersonal (correo, nombre, apellidoPaterno, apellidoMaterno, grado)
-                showMessage("Registrado: " + nombre);
+                showMessage(nombre, " ha sido registrado");
                 //Borrar información en "registro"
                 const borrarRegistro = await deleteRegister(e.target.dataset.id); //Con dataset.id se obtiene nada más el ID del dato del botón y se borra con DELETE TASK, objeto creado en firebase.js
                     console.log("Borrando registro ", e.target.dataset.id)
