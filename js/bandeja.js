@@ -11,7 +11,7 @@ import {
     updateTask,
     getTasks,
     updateFolio,
-} from "./z-generales.JS";
+} from "./z-generales.js";
 
 //import './logout.js'
 
